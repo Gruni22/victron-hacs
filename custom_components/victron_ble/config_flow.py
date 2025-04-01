@@ -1,4 +1,4 @@
-"""Config flow for victron_ble integration."""
+"""Config flow for victron integration."""
 from __future__ import annotations
 
 import logging
@@ -23,7 +23,7 @@ STEP_USER_DATA_SCHEMA = vol.Schema(
 
 
 class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):  # type: ignore[call-arg]
-    """Handle a config flow for victron_ble."""
+    """Handle a config flow for victron."""
 
     VERSION = 1
 

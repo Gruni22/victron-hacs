@@ -20,7 +20,7 @@ _LOGGER = logging.getLogger(__name__)
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    """Set up Victron BLE device from a config entry."""
+    """Set up Victron device from a config entry."""
     address = entry.unique_id
     assert address is not None
     data = VictronBluetoothDeviceData(entry.data["key"])
