@@ -3,7 +3,8 @@
 # Victron Instant Readout Integration
 
 This integration allows exposing data from Victron devices with Instant Readout enabled in Home Assistant.
-
+forked from
+https://github.com/keshavdv/victron-hacs
 Supported Devices & Entities:
 
 - SmartShunt 500A/500mv and BMV-712/702 provide the following data:
@@ -24,6 +25,11 @@ Supported Devices & Entities:
   - Solar Power (W)
   - Yield Today (Wh)
   - External Device Load (A)
+- Smart Charger IP22 and IP67
+  - Charger State (Off, Bulk, Absorption, Float)
+  - Voltage
+  - Current
+  - Alarm status
 
 # Installation
 
@@ -36,6 +42,6 @@ Supported Devices & Entities:
 ## HACS
 
 1. Add the integration through this link:
-   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=keshavdv&repository=victron-hacs&category=integration)
+   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Gruni22&repository=victron-hacs&category=integration)
 2. Restart Home Assistant
 3. Setup integration via the integration page.
