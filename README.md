@@ -3,8 +3,10 @@
 # Victron Instant Readout Integration
 
 This integration allows exposing data from Victron devices with Instant Readout enabled in Home Assistant.
-forked from
-https://github.com/keshavdv/victron-hacs
+
+Forked from:
+(https://github.com/keshavdv/victron-hacs)
+
 Supported Devices & Entities:
 
 - SmartShunt 500A/500mv and BMV-712/702 provide the following data:
